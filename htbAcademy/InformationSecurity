@@ -1,0 +1,60 @@
+CISO (Chief information security officer)
+Oversees the whole information security program
+
+Security Architect
+Designs secure networks and systems
+
+Penetration Tester
+Finds, exploits and reports vulnerabilities in a system ethically
+
+Incident Response Specialist
+Manages and responses to security incidents
+
+Security Analyst
+Monitors systems for weaknesses and mitigates them
+
+Compliance Specialist
+Ensures that the organisation is complying to the standards and regulations
+
+Blue Team
+This team is responsible of internet security and responses to attacks
+
+Red Team
+This team simulates real attacks on systems ethically by permission
+
+Purple Team
+This team consists of blue and red teams working together to enhance the organizations security
+
+Confidentiality
+Ensures unauthorized people can't access the information and information systems
+Protects against disclosure
+Implemented through encryption and access controls
+
+Integrity
+Prevents unauthorized and incorrect modification or destruction of data.
+Implemented through measures like hashing and digital signatures
+
+Availability
+Ensures data is available anytime for the one trying to access it
+Prevents disruption
+Implemented through redundancy and disaster recovery planning
+
+Non-Repudiation
+Ensures that a party cannot deny the message or email originated from them
+used in e-commerce and legal contexts
+Implemented through digital signatures and audit logs
+
+Authentication
+verifies the identity of a person, system or a device
+Integral for authorization
+Implemented through passwords, biometrics, mfa
+
+Privacy
+Focuses on correctly handling sensitive information by complying to data protection regulations	
+Implemented through data minimization and consent management
+
+Data Minimization
+Process of storing, processing, using only the necessary amount of personal information for a specific purpose
+
+Consent Management
+Is a system or process that users can choose and determine the information they are willing to permit to their various providers access

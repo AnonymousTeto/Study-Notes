@@ -1,0 +1,86 @@
+Information Security
+Information security is securing information and information systems from misuse, disruption, disclosure, modification and destruction.
+It also means to prevent unathorized people from accessing the data they shouldn't be able to.
+
+Eugene Spafford - "The only truly secure system is one that is
+powered off, cast in a block of concrete and sealed in a lead-lined room
+with armed guards—and even then, I have my doubts.”
+
+As you increase security, you decrease the level of usability and productivity.
+
+avenue - yöntem
+accommodate - barındırmak
+disclosure - ifşa
+disruption - bozulma, kesinti
+mitigate - En aza indirmek, hafifletmek
+Assess - Değerlendirmek, hesaplamak
+Enumerate - Listelemek, saymak
+Framework - Sistem, yapı, referans olunacak şey
+Authentic - Güvenilir kaynak, uygun
+
+We are never secure, never ever.
+There is always a vulnerability an attacker can use.
+For example, if you have strong passwords, the attacker will exploit a different avenue instead, even if you aren't connected to the
+internet, your device can still be physically accessed by an adversary.
+
+Threat
+Something or someone that has the potential of causing harm. Threats are ambigius, which means a virus that affects the windows system might not harm a linux system.
+
+Vulnerability
+A weakness that threats can exploit. It could be a misconfigured system, a system that needs to be updated, the location of your office building,
+
+Risk
+For a risk to be born, we need both a threat and a vulnerability. A risk is the possibility of something bad happening. For example if you light a fire in a wooden house, there is
+a risk of causing a fire. The threat is the flame and the vulnerability is the house beingm ade out of wood. But if the house was made of concrete, there still would be a threat but there
+would be no risk and vulnerability to consider. Also spreading your resources and trying to prevent every possible attack is not good either, if you try to prevent them all at once you will
+be weak everywhere and lack the protection where you need it the most.
+
+Impact
+Some organizations like the US National Security Agency (NSA), add a another factor to the threat/vulnerabiliy/risk equation called impact. It simply means to calculate the value of the assets being threatened. If the value of the assets are low, there isnt really a risk or a big impact.
+
+Risk management
+Risk management processes compensate for risks in your environment
+Identify assets -> Identify threats -> Assess vulnerabilities -> Assess risks -> Mitigate risks
+
+Identify Assets
+Identifying assets is the first and most important step, if you dont know what assets you are trying to protect and also the value and importance of the assets you are protecting, you can't really protect them. You can't protect what you don't know.
+Identifying assets is actually a hard process although it may look simple. The bigger the enterprise is the harder and more complex it is to identify all the assets.
+These assets could be hardware, software, user data etc.
+
+Identify Threats
+After identifying our assets, we need to identify the threats against them, to do this we need to use a framework, we can use the cia triad or the parkerian hexad as our framework.
+For example if we inspect an application that processes credit card payments for threats using the parkerian hexad;
+
+Confidentiality
+If you expose confidential data, you could have a potential breach.
+
+Integrity
+If you corrupt or modify data inappropriately, you could make wrong payments or transactions.
+
+Availability
+If the system application goes down, you wont be able to process payments.
+
+Authenticity
+If you dont authenticate the users for payments, you could make a fraudalent transaction go through.
+
+Utility
+If you collect invalid or incorrect data, that data will be useless.
+
+Possession
+If you lose some backup tapes, you could potentially have a breach.
+
+Measure - Önlem
+
+Mitigate risks
+To mitigate risks, you can put in measures to account for each threat.
+These measures are called control.
+Controls are divided into three categories;
+Physical, logical and administrative
+
+Physical
+This is literally the physical security measures, bodyguards around the building, heating, air cooling at the server room, cameras, generators, locked doors etc.
+At first glance this might not seem relevant to information security but it really is important, if physical security is weak, adversaires can get access to the systems physically and can destroy, steal, modify data.
+
+Logical
+Logical controls are firewalls, ids/ips systems, passwords, ACL's etc.
+They are used to protect systems, environments and networks that transmit, store and send your data.

@@ -1,0 +1,5 @@
+Non-Repudiation
+In cryptogrophy, when someone sends a file, we make sure that the file is the same as it's original, the sender also sends us the hash of the file, When
+we get the file, we look at the hash of the file we got to see if it's the same as the original.
+Non-repudiation means you can't deny what you said, for example when you sign something, there is proof that you have read and accepted what was written
+on the paper and you can't take it back.

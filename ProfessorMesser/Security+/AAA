@@ -1,0 +1,27 @@
+Authentication, Authorization and Accounting
+Identification
+This is who you claim to be.
+Your username.
+
+Authentication
+This is where you need to prove who you say you are.
+By a password and/or other authentication methods.
+
+Authorization
+After authenticating who you are we need to check where you have access and what permissions you have.
+
+Accounting
+These are resources used, who logged in, with which password, data send  and received, when did they log out?
+
+When you want to gain access to a server, you first need to get authenticated, for example there is a vpn or a firewall between the server and you, you send your credentials to the firewall/vpn, but the vpn/firewall itself
+doesnt store the credentials to authenticate you, they are stored in a AAA server, typically a database with passwords, usernames. The firewall/vpn sends the credentials you provided to the AAA server, the AAA server looks for a match
+and if it is approved, you can enter the server.
+
+You will have to manage many many devices you wont be able to see in your life, these system devices need to log in to the network or the server as well but servers can't enter their credentials like us users, so we put a signed
+ceritificate and a digital signature inside them, so when these systems turn on they log in automatically since there is a certificate within them.
+This is also applicable to company computers, when you try to connect to the company's vpn, if the computer has the company's digital signed certificate, you are logged in automatically.
+
+To create and use these certificates, we use a trusted certificate authority (CA).
+Every company has their own CA.
+The organization creates a certificate for a device and digitally signs it with the CA, so after some time you can validate that devices certificate signature by using your CA
+The CA also has it's own certificate signed by root.
