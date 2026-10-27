@@ -1,0 +1,14 @@
+Opsec is short for Operational security.
+It is the process of identifying operational critical information that may be the target of adverseries in order to disrupt your operations.
+The goal is to secure the information to prevent an adversary from obtaining it. In terms of anonymity this can be used to protect and secure the information 
+adversaries may use to deanonymize you.
+
+Threat Modeling
+Threat modeling is the process of getting to know your adversary, identifying information or attack vectors the adversary may exploit and then finding a way to mitigate
+those exploits the adversaries may use. When these information are compiled together, it is called a threat model.
+You can also use other more structured thread models such as STRIDE, CIA Triad, Attack Tress.
+
+Stride
+The stride threating model was developed by Microsoft and can be applied to almost everything. STRIDE stands for spoofing, tampering, repudiation, information disclosure
+denial of service, escalate of privileges.
+
